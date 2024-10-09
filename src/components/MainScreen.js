@@ -5,7 +5,7 @@ function MainScreen({ players, questions, currentQuestion, results }) {
   return (
     <div className="main-screen">
       <h1>KBC Quiz: scan and play</h1>
-      <QRCodeCanvas value="http://localhost:3000/mobile" size={128} />
+      <QRCodeCanvas value="https://kb-cquizapp.vercel.app//mobile" size={128} />
       <h2>Players Joined:</h2>
       <ul>
         {players.map((player, index) => (
